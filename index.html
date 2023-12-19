@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="./Assets/css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap"
+rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+<title>Portfolio</title>
+</head>
+
+<body>
+    <header>  
+        <div class="container">  
+          <nav class="flex items-centre justify-between">  
+              <div class="left flex justfiy-right">  
+              <div class="logo">  
+                <img src="./Assets/images/logo.png" width="50px" alt="logo">  
+              </div>  
+              <div>  
+                <a href="#">Home</a>  
+                <a href="#About">About</a>  
+                <a href="#">Skills</a>  
+                <a href="#Services">Services</a>
+                <a href="#">Gallery</a>  
+              </div>  
+            </div>  
+            <div class="right">  
+              <button class="btn btn-primary">Contact</button>  
+            </div>  
+          </nav>
+        </div>
+         
+      </header>
+
+      <div class="socials">
+        <a href="https://instagram.com/mo_m33r?igshid=ZDdkNTZiNTM=" target="_blank"
+        ><img
+          src="Assets/images/instagram-icon.png"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+        /></a>
+        
+        <a href="https://www.facebook.com/mohammedaamir.rughoonanan.5?mibextid=ZbWKwL" target="_blank"
+        ><img
+          src="Assets/images/facebook-icon.png"
+          alt="Facebook"
+          loading="lazy"
+          class="socicon"
+        /></a>
+  
+        <a href="https://twitter.com/Moey_NFT?t=hfowAsiFy36Fi5OWa-E2dg&s=09" target="_blank"
+        ><img
+          src="Assets/images/twitter-icon.png"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+          /></a>
+       <a href="#" target="_blank">
+          <img
+            src="Assets/images/email-icon.png"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="#" target="_blank"
+        ><img src="Assets/images/email-icon.png" alt="Github" class="socicon"
+        /></a>
+      </div> 
+
+      <div class="hero flex items-centre justify-between">
+        <div class="left flex-1 justify-center">
+        <img src="./Assets/images/myself.jpg" alt="Profile">
+        </div>
+        <div class="right flex-1">
+        <h6>MA.R</h6>
+        <h1><span>Web<br> Developer</span></h1>
+        <p>Cape Town, South Africa.<br>
+           Young web developer, studying Bcom in Digital Marketing.</p>
+        <div>
+        <button class="btn btn-secondary">DOWNLOAD CV</button>
+        </div>
+        </div>
+        </div>
+
+        <section class="about">
+            <div class="container flex items-centre" id="About">
+            <div class="left flex-1 justify-right">
+            </div>
+            <div class="right flex-1">
+            <h1>About <span>Me</span></h1>
+            <h3>Hello! I'm MA.R</h3>
+            <p>
+                I have always had an interest in business as well as marketing. I have experience in the eCommerce industry and digital entrepreneurial skills. Since 2020 I have researched and developed my knowledge in building online stores, working with advertisement campaigns and Search Engine Optimization (SEO’s).
+            <br>
+                I want to study Digital Marketing in the hopes to expand my skill set, knowledge and professionalize myself in the marketing and business world. My goal is to become not just a successful entrepreneur, but a successful professional marketer, 
+                as in modern society and business environment, everything is heading towards a more digitized world, and I aim to be in the forefront of this ever-revolutionizing world and envision myself as being a lead in this arena.
+            </p>
+
+      
+            </div>
+            </section>
+           
+
+            <section class="services">
+                <div class="container" id="Services">
+                <h1 class="services-head">Services</h1>
+                <p>All your digital needs... covered.</p>
+                <div class="card-grid">
+                <div class="card">
+                <img src="./images/graphic-design.png">
+                <h2>Graphic Desgin</h2>
+                <p>Elevate your brand with our graphic design expertise. From striking visuals to compelling branding, we transform ideas into captivating designs. Let us bring your vision to life and make a lasting impression. Your brand, beautifully designed.</p>
+                </div>
+                <div class="card">
+                <img src="./images/world-wide-web.png">
+                <h2>Web Development</h2>
+                <p>Unleash the full potential of your online presence with our cutting-edge web development services. We craft dynamic, responsive websites that captivate your audience and elevate your brand. <br>
+                From sleek designs to seamless functionality, we bring your digital vision to life. Transform your online experience with our expert web development solutions – where innovation meets impact.</p>
+                </div>
+                <div class="card">
+                <img src="./images/blogger.png">
+                <h2>Content Writing</h2>
+                <p>Unlock the power of words with our content writing service. Elevate your brand, engage your audience, and tell your story with compelling, tailored content. From blog posts to web copy, we craft words that resonate and captivate. Let your content speak volumes, because Great content is the heart of every successful story.</p>
+                </div>
+                </div>
+                </div>
+            </section>
+            
+            <button id="scroll-up" onclick="scrollToTop()">&#8593;</button> 
+	
+            <footer>
+                <p>
+                    <script>
+                        var theDate=new Date()
+                        
+                        var theModifiedDate=new Date(document.lastModified)
+                        document.write(theModifiedDate.toDateString())
+                    </script>
+                <br>
+                    2023 | Built by MA.R | United we code
+                </p>
+            </footer>
+
+        <script src="./Assets/js/script.js"></script>
+
+</body>
+</html>
